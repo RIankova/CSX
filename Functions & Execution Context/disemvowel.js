@@ -4,9 +4,7 @@
 // take string and check for vowels
 // - return new string with vowels removed
 
-// vowels
 const VOWELS = ['a', 'e', 'i', 'o', 'u'];
-
 
 function disemvowel(string) {
 
@@ -24,10 +22,6 @@ function disemvowel(string) {
   return noVowelsStr;
 }
 
-console.log(disemvowel('ral'));
-
-//Comment in the code below to test your function:
-
-// console.log(disemvowel('CodeSmith')); // => 'CdSmth'
-// console.log(disemvowel('BANANA')); // => 'BNN'
-// console.log(disemvowel('hello world')); // => 'hll wrld'
+console.log(disemvowel('CodeSmith')); // => 'CdSmth'
+console.log(disemvowel('BANANA')); // => 'BNN'
+console.log(disemvowel('hello world')); // => 'hll wrld'
