@@ -14,16 +14,13 @@ function disemvowel(string) {
   for (let i = 0; i < string.length; i++) {
     // convert string to lowercase to properly check againist VOWELS const
     let lowerCaseLetter = string[i].toLowerCase();
-    // if a letter is NOT included in VOWELS const, concantate each letter to noVowelsStr
+    // if a letter is NOT included in VOWELS const, concatenate each letter to noVowelsStr
     if (!VOWELS.includes(lowerCaseLetter)) {
       noVowelsStr += string[i];
     }
   }
   return noVowelsStr;
 }
-// loop through string letters
-console.log(disemvowel('ralitza'));
-
 
 console.log(disemvowel('CodeSmith')); // => 'CdSmth'
 console.log(disemvowel('BANANA')); // => 'BNN'
