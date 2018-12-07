@@ -7,7 +7,6 @@
 const VOWELS = ['a', 'e', 'i', 'o', 'u'];
 
 function disemvowel(string) {
-
   let noVowelsStr = '';
   for (let i = 0; i < string.length; i++) {
     // getting a hold of each indiviual letter in string using its index
